@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="icon" href="favi.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>This is a QR code Generator that convertors the text enterted into a QR- Code.</p>
+        <br>
+        <h2 id="h2">Enter the text to convert into QR</h2>
+        <input type="text" placeholder="Enter the Text Here" class="input" id="inpt">
+        <br><br><br>
+        <button class="btn-grad" type="submit" onclick="clicked()">Generate</button>
+        <div class="op" id="qrcode"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+    <script  src="Script.js"></script>
+</body>
+</html>
